@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(32, 27, 27, 0.87);
+  background-color: #54aab6;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,7 +19,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #2e37e2;
   text-decoration: inherit;
 }
 a:hover {
@@ -61,6 +61,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+nav > a {
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: light) {
