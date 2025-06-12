@@ -5,8 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Routes>
-      <App />
-    </Routes>
+    <Routes></Routes>
   </BrowserRouter>
 );
