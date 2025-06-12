@@ -1,7 +1,7 @@
 import "../src/index.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import About from "./components/About.jsx";
-import Home from "./components/Home.jsx";
+import About from "./components/pages/About.jsx";
+import Home from "./components/pages/Home.jsx";
 
 export default function App() {
   return (
